@@ -1,0 +1,74 @@
+/* Corpo geral */
+*{
+    background-color: #cccaa9;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Barra de Pesquisa */
+.navBar{
+    background-color: #757351;
+    position: static;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    background-color: #757351;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+.barra_Pesquisa{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 80px;
+    border: 1px solid #333224;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+::placeholder{
+    opacity: 50%;
+}
+
+/* Conteiners: Tabela e Links */
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* Links */
+.redirecionamento{
+    background-color: #757351;
+    width: 100%;
+    max-width: 300px;
+    height: 100vh;
+}
+h3{
+    background-color: #757351;
+    text-align: center;
+    padding-top: 20px;
+}
+.links{
+    background-color: #757351;
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}
+
+/* Tabela */
+.container_Tabela{
+    flex: 1;
+}
+.tabela_Dados{
+    width: 100%;
+}
+.tabela_Info{
+    width: 100%;
+    text-align: center;
+}
+td, th{
+    padding: 10px;
+    border: 1px solid #333224;
+    color: rgb(20, 20, 20);
+}

@@ -1,0 +1,92 @@
+/* Corpo geral */
+*{
+    background-color: #cccaa9;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Barra de Pesquisa */
+.navBar{
+    background-color: #757351;
+    position: static;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: black;
+    background-color: #757351;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+.barra_Pesquisa{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 80px;
+    border: 1px solid #333224;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+::placeholder{
+    opacity: 50%;
+}
+
+/* Conteiners: Tabela e Links */
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* Links */
+.redirecionamento{
+    background-color: #757351;
+    width: 100%;
+    max-width: 300px;
+    height: 100vh;
+}
+h3{
+    background-color: #757351;
+    text-align: center;
+    padding-top: 20px;
+}
+.links{
+    background-color: #757351;
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}
+
+/* Cadastro */
+.preencher{
+    text-align: center;
+    margin-left: 20vh;
+}
+input:focus {
+    outline: none;
+}
+.caixas{
+    border: 2px solid #333224;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    text-transform: capitalize;
+}
+.caixas:focus{
+    border-color: #333224;
+}
+.botao_Cadastrar{
+    background-color: #757351;
+    border: solid;
+    border-color: #757351;
+}
+.botao_Cadastrar:hover{
+    cursor: pointer;
+}
+.botao_Cadastrar:active{
+    color: rgb(77, 77, 77);
+    background-color: #333224;
+    border: solid;
+    border-color: #333224;
+}
